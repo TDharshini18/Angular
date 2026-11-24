@@ -1,0 +1,24 @@
+.card {
+  max-width: 380px;
+  margin: 60px auto;
+  padding: 32px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(79, 70, 229, 0.12);
+}
+
+.sub { margin: 0 0 24px; color: #6b7280; }
+
+label {
+  display: block;
+  margin: 16px 0 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+}
+.actions button { flex: 1; }

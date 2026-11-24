@@ -1,0 +1,29 @@
+<p>Interpolation
+    {{name}}
+</p>
+
+<p>
+    Property Binding
+    <input type="text" [value]="topic">
+</p>
+
+<p>
+    <img  [src]="link" alt="house">
+</p>
+
+<p>
+    <button (click)="onButtonClick()">Submit</button>
+<p>
+
+<p>
+    <select  (change)="onChange()" >
+        <option value="">Select Country</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+    </select>
+</p>
+
+<p>
+    <input type="text" [(ngModel)]="username">
+        Your username is: {{username}}
+    <p>
